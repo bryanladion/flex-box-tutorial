@@ -1,12 +1,24 @@
-.container-1{
-    display:flex;
-    /*align-items:flex-start;
-      flex-direction: column;
-    */
+@media(min-width:768px){
+    .container-1{
+        display:flex;
+        /*align-items:flex-start;
+          flex-direction: column;
+        */
+    }
+    .container-2{
+        display: flex;
+        
+        /*
+        justify-content: space-between;
+        */
+        }
+        .container-2-box{
+            width:30%;
+            
+        }
+    
 }
-.container-2{
-    display:flex;
-}
+
 .box-1{
     flex:1;
     background-color:cyan;
@@ -37,15 +49,10 @@
     padding:10px;
 
 }
-.container-2{
-    margin-top:10px;
-}
+
 .container-2 div{
     
     padding:10px;
     border: 1px solid black;
 }
-.container-2-box{
-    width:30%;
-    flex:1;
-}
+
